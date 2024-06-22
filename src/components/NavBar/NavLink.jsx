@@ -12,7 +12,7 @@ const NavLink = ({ sectionId, name }) => {
     <div>
       <Button
         onClick={scrollTo}
-        className="text-2xl font-light"
+        className="text-xl font-light"
         variant={"link"}
       >
         {name}

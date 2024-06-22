@@ -11,10 +11,10 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between p-10">
+    <div className="flex justify-between px-10 py-5">
       <h1 className="text-2xl">Nguyen The Binh</h1>
       <div className="flex gap-12">
-        <div className="flex">
+        <div className="flex max-sm:hidden">
           {section.map((sec) => (
             <NavLink
               key={sec.sectionId}
