@@ -6,6 +6,7 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import React from "react";
+import IU_Logo from "../../../../src/assets/IU_Logo.png";
 
 const Briefing = () => {
   return (
@@ -13,7 +14,7 @@ const Briefing = () => {
       <Card className="w-4/5">
         <CardHeader>
           <CardTitle className="text-3xl">Experience</CardTitle>
-          <CardContent>
+          <CardContent className="pt-10">
             <h1 className="text-4xl mt-4">~1 Year</h1>
             <h1 className="text-4xl mt-4">Software development</h1>
           </CardContent>
@@ -23,9 +24,9 @@ const Briefing = () => {
         <CardHeader>
           <CardTitle className="text-3xl">Education</CardTitle>
         </CardHeader>
-        <CardContent className="flex flex-col items-center gap-2">
+        <CardContent className="flex flex-col items-center  gap-2">
           <CardTitle>Computer Science Undergraduate</CardTitle>
-          <img src="src/assets/IU Logo.png" alt="iu logo" className="size-32" />
+          <img src={IU_Logo} alt="iu logo" className=" size-32" />
         </CardContent>
       </Card>
     </div>
